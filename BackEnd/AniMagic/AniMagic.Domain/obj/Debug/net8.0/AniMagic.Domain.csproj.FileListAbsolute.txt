@@ -1,0 +1,11 @@
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Domain\bin\Debug\net8.0\AniMagic.Domain.deps.json
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Domain\bin\Debug\net8.0\AniMagic.Domain.dll
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Domain\bin\Debug\net8.0\AniMagic.Domain.pdb
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Domain\obj\Debug\net8.0\AniMagic.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Domain\obj\Debug\net8.0\AniMagic.Domain.AssemblyInfoInputs.cache
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Domain\obj\Debug\net8.0\AniMagic.Domain.AssemblyInfo.cs
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Domain\obj\Debug\net8.0\AniMagic.Domain.csproj.CoreCompileInputs.cache
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Domain\obj\Debug\net8.0\AniMagic.Domain.dll
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Domain\obj\Debug\net8.0\refint\AniMagic.Domain.dll
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Domain\obj\Debug\net8.0\AniMagic.Domain.pdb
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Domain\obj\Debug\net8.0\ref\AniMagic.Domain.dll
