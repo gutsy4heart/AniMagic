@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "AniMagic.Application\\DTOs\\Cartoon\\AddFavoriteDto.cs",
               "ToolTip": "C:\\Users\\Nurma_kf03\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Application\\DTOs\\Cartoon\\AddFavoriteDto.cs",
               "RelativeToolTip": "AniMagic.Application\\DTOs\\Cartoon\\AddFavoriteDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAcwCwAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T14:14:44.141Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "AniMagic.Application\\DTOs\\Cartoon\\FavoriteDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T14:14:15.423Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T14:14:15.423Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "AniMagic.Infrastructure\\Data\\AniMagicDbContextFactory.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T09:23:03.139Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T09:23:03.139Z"
             },
             {
               "$type": "Document",
@@ -93,8 +91,7 @@
               "RelativeToolTip": "AniMagic.Infrastructure\\Data\\AniMagicDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T09:15:34.548Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T09:15:34.548Z"
             }
           ]
         }
