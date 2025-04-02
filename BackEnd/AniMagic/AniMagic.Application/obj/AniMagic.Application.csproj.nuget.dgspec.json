@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Application\\AniMagic.Application.csproj": {}
+    "C:\\Users\\Nurma_kf03\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Application\\AniMagic.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Application\\AniMagic.Application.csproj": {
+    "C:\\Users\\Nurma_kf03\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Application\\AniMagic.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Application\\AniMagic.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Nurma_kf03\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Application\\AniMagic.Application.csproj",
         "projectName": "AniMagic.Application",
-        "projectPath": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Application\\AniMagic.Application.csproj",
-        "packagesPath": "C:\\Users\\murad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Application\\obj\\",
+        "projectPath": "C:\\Users\\Nurma_kf03\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Application\\AniMagic.Application.csproj",
+        "packagesPath": "C:\\Users\\Nurma_kf03\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nurma_kf03\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\murad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nurma_kf03\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\AniMagic.Domain.csproj": {
-                "projectPath": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\AniMagic.Domain.csproj"
+              "C:\\Users\\Nurma_kf03\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\AniMagic.Domain.csproj": {
+                "projectPath": "C:\\Users\\Nurma_kf03\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\AniMagic.Domain.csproj"
               }
             }
           }
@@ -87,21 +91,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\AniMagic.Domain.csproj": {
+    "C:\\Users\\Nurma_kf03\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\AniMagic.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\AniMagic.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Nurma_kf03\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\AniMagic.Domain.csproj",
         "projectName": "AniMagic.Domain",
-        "projectPath": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\AniMagic.Domain.csproj",
-        "packagesPath": "C:\\Users\\murad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Nurma_kf03\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\AniMagic.Domain.csproj",
+        "packagesPath": "C:\\Users\\Nurma_kf03\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nurma_kf03\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\murad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nurma_kf03\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -170,7 +178,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

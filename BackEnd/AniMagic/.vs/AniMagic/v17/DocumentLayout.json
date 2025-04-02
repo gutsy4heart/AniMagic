@@ -1,17 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\",
+  "WorkspaceRootPath": "C:\\Users\\Nurma_kf03\\Desktop\\AniMagic\\BackEnd\\AniMagic\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A4D601D7-DCA2-4466-BD8C-0591131EB572}|AniMagic.Infrastructure\\AniMagic.Infrastructure.csproj|c:\\users\\murad\\desktop\\animagic\\backend\\animagic\\animagic.infrastructure\\data\\animagicdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4D601D7-DCA2-4466-BD8C-0591131EB572}|AniMagic.Infrastructure\\AniMagic.Infrastructure.csproj|solutionrelative:animagic.infrastructure\\data\\animagicdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3553FEB-CBF1-4A65-A98C-C8B8361065D0}|AniMagic.Application\\AniMagic.Application.csproj|c:\\users\\nurma_kf03\\desktop\\animagic\\backend\\animagic\\animagic.application\\dtos\\cartoon\\addfavoritedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3553FEB-CBF1-4A65-A98C-C8B8361065D0}|AniMagic.Application\\AniMagic.Application.csproj|solutionrelative:animagic.application\\dtos\\cartoon\\addfavoritedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4D601D7-DCA2-4466-BD8C-0591131EB572}|AniMagic.Infrastructure\\AniMagic.Infrastructure.csproj|c:\\users\\murad\\desktop\\animagic\\backend\\animagic\\animagic.infrastructure\\data\\animagicdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D3553FEB-CBF1-4A65-A98C-C8B8361065D0}|AniMagic.Application\\AniMagic.Application.csproj|c:\\users\\nurma_kf03\\desktop\\animagic\\backend\\animagic\\animagic.application\\dtos\\cartoon\\favoritedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3553FEB-CBF1-4A65-A98C-C8B8361065D0}|AniMagic.Application\\AniMagic.Application.csproj|solutionrelative:animagic.application\\dtos\\cartoon\\favoritedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D601D7-DCA2-4466-BD8C-0591131EB572}|AniMagic.Infrastructure\\AniMagic.Infrastructure.csproj|c:\\users\\nurma_kf03\\desktop\\animagic\\backend\\animagic\\animagic.infrastructure\\data\\animagicdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4D601D7-DCA2-4466-BD8C-0591131EB572}|AniMagic.Infrastructure\\AniMagic.Infrastructure.csproj|solutionrelative:animagic.infrastructure\\data\\animagicdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF03449E-CAC6-45E6-B5D0-B8CB850337D5}|AniMagic.Domain\\AniMagic.Domain.csproj|c:\\users\\murad\\desktop\\animagic\\backend\\animagic\\animagic.domain\\models\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A4D601D7-DCA2-4466-BD8C-0591131EB572}|AniMagic.Infrastructure\\AniMagic.Infrastructure.csproj|c:\\users\\nurma_kf03\\desktop\\animagic\\backend\\animagic\\animagic.infrastructure\\data\\animagicdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D601D7-DCA2-4466-BD8C-0591131EB572}|AniMagic.Infrastructure\\AniMagic.Infrastructure.csproj|solutionrelative:animagic.infrastructure\\data\\animagicdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF03449E-CAC6-45E6-B5D0-B8CB850337D5}|AniMagic.Domain\\AniMagic.Domain.csproj|c:\\users\\nurma_kf03\\desktop\\animagic\\backend\\animagic\\animagic.domain\\models\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF03449E-CAC6-45E6-B5D0-B8CB850337D5}|AniMagic.Domain\\AniMagic.Domain.csproj|solutionrelative:animagic.domain\\models\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,47 +30,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddFavoriteDto.cs",
+              "DocumentMoniker": "C:\\Users\\Nurma_kf03\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Application\\DTOs\\Cartoon\\AddFavoriteDto.cs",
+              "RelativeDocumentMoniker": "AniMagic.Application\\DTOs\\Cartoon\\AddFavoriteDto.cs",
+              "ToolTip": "C:\\Users\\Nurma_kf03\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Application\\DTOs\\Cartoon\\AddFavoriteDto.cs",
+              "RelativeToolTip": "AniMagic.Application\\DTOs\\Cartoon\\AddFavoriteDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T14:14:44.141Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "FavoriteDto.cs",
+              "DocumentMoniker": "C:\\Users\\Nurma_kf03\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Application\\DTOs\\Cartoon\\FavoriteDto.cs",
+              "RelativeDocumentMoniker": "AniMagic.Application\\DTOs\\Cartoon\\FavoriteDto.cs",
+              "ToolTip": "C:\\Users\\Nurma_kf03\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Application\\DTOs\\Cartoon\\FavoriteDto.cs",
+              "RelativeToolTip": "AniMagic.Application\\DTOs\\Cartoon\\FavoriteDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T14:14:15.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AniMagicDbContextFactory.cs",
-              "DocumentMoniker": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Infrastructure\\Data\\AniMagicDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Nurma_kf03\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Infrastructure\\Data\\AniMagicDbContextFactory.cs",
               "RelativeDocumentMoniker": "AniMagic.Infrastructure\\Data\\AniMagicDbContextFactory.cs",
-              "ToolTip": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Infrastructure\\Data\\AniMagicDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\Nurma_kf03\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Infrastructure\\Data\\AniMagicDbContextFactory.cs",
               "RelativeToolTip": "AniMagic.Infrastructure\\Data\\AniMagicDbContextFactory.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAgwA4AAAAVAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T09:23:03.139Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Roles.cs",
-              "DocumentMoniker": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\Models\\Roles.cs",
+              "DocumentMoniker": "C:\\Users\\Nurma_kf03\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\Models\\Roles.cs",
               "RelativeDocumentMoniker": "AniMagic.Domain\\Models\\Roles.cs",
-              "ToolTip": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\Models\\Roles.cs",
+              "ToolTip": "C:\\Users\\Nurma_kf03\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\Models\\Roles.cs",
               "RelativeToolTip": "AniMagic.Domain\\Models\\Roles.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T09:17:35.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T09:17:35.565Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "AniMagicDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Infrastructure\\Data\\AniMagicDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Nurma_kf03\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Infrastructure\\Data\\AniMagicDbContext.cs",
               "RelativeDocumentMoniker": "AniMagic.Infrastructure\\Data\\AniMagicDbContext.cs",
-              "ToolTip": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Infrastructure\\Data\\AniMagicDbContext.cs",
+              "ToolTip": "C:\\Users\\Nurma_kf03\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Infrastructure\\Data\\AniMagicDbContext.cs",
               "RelativeToolTip": "AniMagic.Infrastructure\\Data\\AniMagicDbContext.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAwwBkAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T09:15:34.548Z",
               "EditorCaption": ""
