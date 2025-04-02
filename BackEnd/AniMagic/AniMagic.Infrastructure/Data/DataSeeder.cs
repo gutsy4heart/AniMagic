@@ -10,35 +10,36 @@ namespace AniMagic.Infrastructure.Data;
 
 public static class DataSeeder
 {
-
     public static void SeedData(AniMagicDbContext context)
     {
-        // Проверяем, если в базе данных еще нет ролей, добавляем их
+        // Ensure the roles exist in the database
         if (!context.Roles.Any())
         {
-            context.Roles.AddRange(
-                new Roles("Admin"),
-                new Roles("User")
-            );
+            var adminRole = new Roles("Admin");
+            var userRole = new Roles("User");
+
+            context.Roles.AddRange(adminRole, userRole);
             context.SaveChanges();
         }
 
-        // Проверяем, если в базе данных нет пользователей, добавляем администратора
+        // Fetch roles from the database
+        var adminRoleFromDb = context.Roles.FirstOrDefault(r => r.Name == "Admin");
+        var userRoleFromDb = context.Roles.FirstOrDefault(r => r.Name == "User");
+
+        // Ensure an admin user exists
         if (!context.Users.Any())
         {
-            var adminRole = context.Roles.FirstOrDefault(r => r.Name == "Admin");
-
             context.Users.Add(new User
             {
                 Id = Guid.NewGuid(),
                 Username = "admin",
                 Email = "admin@example.com",
-                PasswordHash = "hashedpassword",  // Это должно быть хэшированное значение пароля
-                RoleId = adminRole.Id
+                PasswordHash = "hashedpassword", // Replace with hashed password
+                RoleId = adminRoleFromDb!.Id  // Assigning RoleId instead of Role.Name
             });
 
             context.SaveChanges();
         }
-
     }
+
 }

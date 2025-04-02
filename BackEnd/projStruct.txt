@@ -67,3 +67,88 @@ AniMagic/
 |   |-- JwtHelper.cs
 |
 |-- AniMagic.Tests/                    (Testing Layer) [Optional]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AniMagic/
+│── AniMagic.Api/                  (Presentation Layer)
+│   │── Controllers/                (Handles API requests)
+│   │   ├── AuthController.cs
+│   │   ├── UsersController.cs
+│   │   ├── CartoonsController.cs
+│   │   ├── FavoritesController.cs
+│   │   ├── RatingsController.cs
+│   │   ├── CommentsController.cs
+│   │── appsettings.json            (Configuration file)
+│   │── Program.cs                  (Application entry point)
+│   │── Startup.cs                   (Middleware configuration)
+│
+│── AniMagic.Application/           (Application Layer)
+│   │── Services/                   (Business logic)
+│   │   ├── AuthService.cs
+│   │   ├── UserService.cs
+│   │   ├── CartoonService.cs
+│   │   ├── FavoriteService.cs
+│   │   ├── RatingService.cs
+│   │   ├── CommentService.cs
+│   │── DTOs/                        (Data Transfer Objects)
+│   │   ├── UserDto.cs
+│   │   ├── CartoonDto.cs
+│   │   ├── FavoriteDto.cs
+│   │   ├── RatingDto.cs
+│   │   ├── CommentDto.cs
+│   │── MappingProfiles/             (AutoMapper Profiles)
+│   │   ├── UserProfile.cs
+│   │   ├── CartoonProfile.cs
+│   │   ├── FavoriteProfile.cs
+│   │   ├── RatingProfile.cs
+│   │   ├── CommentProfile.cs
+│
+│── AniMagic.Domain/                (Domain Layer)
+│   │── Models/                      (Entities)
+│   │   ├── User.cs
+│   │   ├── Roles.cs
+│   │   ├── Cartoon.cs
+│   │   ├── Favorite.cs
+│   │   ├── Rating.cs
+│   │   ├── Comment.cs
+│   │── Interfaces/                  (Abstraction for Repositories & Services)
+│   │   ├── IAuthService.cs
+│   │   ├── IUserService.cs
+│   │   ├── ICartoonService.cs
+│   │   ├── IFavoriteService.cs
+│   │   ├── IRatingService.cs
+│   │   ├── ICommentService.cs
+│   │   ├── IUnitOfWork.cs
+│
+│── AniMagic.Infrastructure/        (Infrastructure Layer)
+│   │── Data/                        (Database & Migrations)
+│   │   ├── AniMagicDbContext.cs
+│   │   ├── AniMagicDbContextFactory.cs
+│   │   ├── DataSeeder.cs
+│   │── Repositories/                (Data Access Layer)
+│   │   ├── UserRepository.cs
+│   │   ├── CartoonRepository.cs
+│   │   ├── FavoriteRepository.cs
+│   │   ├── RatingRepository.cs
+│   │   ├── CommentRepository.cs
+│   │   ├── UnitOfWork.cs
+│   │── Helpers/                     (Utility functions)
+│   │   ├── JwtTokenGenerator.cs
+│   │   ├── Hasher.cs
+│
+│── AniMagic.Middlewares/            (Custom Middlewares)
+│   │── ExceptionMiddleware.cs
+│   │── JwtMiddleware.cs
+│

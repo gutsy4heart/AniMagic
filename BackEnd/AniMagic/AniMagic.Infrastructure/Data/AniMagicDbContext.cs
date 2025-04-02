@@ -23,16 +23,34 @@ public class AniMagicDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        //modelBuilder.ApplyConfiguration(new CartoonConfiguration());
-        //modelBuilder.ApplyConfiguration(new EpisodeConfiguration());
-        //modelBuilder.ApplyConfiguration(new CommentConfiguration());
-        //modelBuilder.ApplyConfiguration(new FavoriteConfiguration());
-        //modelBuilder.ApplyConfiguration(new RatingConfiguration());
-        //modelBuilder.ApplyConfiguration(new RoleConfiguration());
-        //modelBuilder.ApplyConfiguration(new UserConfiguration());
+
         base.OnModelCreating(modelBuilder);
 
-        // Связи многие ко многим (например, Favorite)
+        // Configure Role entity
+        modelBuilder.Entity<Roles>()
+            .HasKey(r => r.Id);
+
+        modelBuilder.Entity<Roles>()
+            .HasData(
+                new Roles("Admin") { Id = Guid.NewGuid() },
+                new Roles("User") { Id = Guid.NewGuid() }
+            );
+
+        // Configure User entity
+        modelBuilder.Entity<User>()
+            .HasKey(u => u.Id);
+
+        modelBuilder.Entity<User>()
+            .HasOne(u => u.Role)
+            .WithMany()
+            .HasForeignKey(u => u.RoleId)
+            .OnDelete(DeleteBehavior.Restrict);
+
+        // Configure Cartoon entity
+        modelBuilder.Entity<Cartoon>()
+            .HasKey(c => c.Id);
+
+        // Configure Favorite entity
         modelBuilder.Entity<Favorite>()
             .HasKey(f => new { f.UserId, f.CartoonId });
 
@@ -43,12 +61,12 @@ public class AniMagicDbContext : DbContext
 
         modelBuilder.Entity<Favorite>()
             .HasOne(f => f.Cartoon)
-            .WithMany(c => c.Favorites)
+            .WithMany()
             .HasForeignKey(f => f.CartoonId);
 
-        // Связи многие ко многим (например, Rating)
+        // Configure Rating entity
         modelBuilder.Entity<Rating>()
-            .HasKey(r => new { r.UserId, r.CartoonId });
+            .HasKey(r => r.Id);
 
         modelBuilder.Entity<Rating>()
             .HasOne(r => r.User)
@@ -57,10 +75,13 @@ public class AniMagicDbContext : DbContext
 
         modelBuilder.Entity<Rating>()
             .HasOne(r => r.Cartoon)
-            .WithMany(c => c.Ratings)
+            .WithMany()
             .HasForeignKey(r => r.CartoonId);
 
-        // Связи многие к одному (например, Comment)
+        // Configure Comment entity
+        modelBuilder.Entity<Comment>()
+            .HasKey(c => c.Id);
+
         modelBuilder.Entity<Comment>()
             .HasOne(c => c.User)
             .WithMany(u => u.Comments)
@@ -68,8 +89,9 @@ public class AniMagicDbContext : DbContext
 
         modelBuilder.Entity<Comment>()
             .HasOne(c => c.Cartoon)
-            .WithMany(c => c.Comments)
+            .WithMany()
             .HasForeignKey(c => c.CartoonId);
     }
-
 }
+
+
