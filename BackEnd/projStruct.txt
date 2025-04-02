@@ -1,0 +1,69 @@
+AniMagic/
+|-- AniMagic.Api/                     (Presentation Layer)
+|   |-- Controllers/
+|   |   |-- AuthController.cs
+|   |   |-- CartoonsController.cs  <-- Includes pagination support
+|   |   |-- CommentsController.cs
+|   |   |-- FavoritesController.cs
+|   |   |-- RatingsController.cs
+|   |   |-- UsersController.cs
+|   |-- Middlewares/
+|   |-- Program.cs
+|   |-- appsettings.json
+|
+|-- AniMagic.Application/             (Application Layer)
+|   |-- Services/
+|   |   |-- AuthService.cs
+|   |   |-- CartoonService.cs  <-- Implements pagination logic
+|   |   |-- CommentService.cs
+|   |   |-- FavoriteService.cs
+|   |   |-- RatingService.cs
+|   |   |-- UserService.cs
+|   |-- DTOs/
+|   |   |-- Auth/
+|   |   |-- Cartoons/
+|   |   |   |-- CartoonDto.cs
+|   |   |   |-- CartoonFilterDto.cs  <-- Supports filtering in pagination
+|   |   |   |-- PaginatedCartoonDto.cs  <-- Contains pagination metadata
+|   |   |-- Comments/
+|   |   |-- Favorites/
+|   |   |-- Ratings/
+|   |   |-- Users/
+|   |-- Mapping/
+|   |   |-- AutoMapperProfiles.cs
+|
+|-- AniMagic.Domain/                  (Domain Layer)
+|   |-- Entities/
+|   |   |-- Cartoon.cs
+|   |   |-- Comment.cs
+|   |   |-- Favorite.cs
+|   |   |-- Rating.cs
+|   |   |-- Role.cs
+|   |   |-- User.cs
+|   |-- Interfaces/
+|   |   |-- IAuthService.cs
+|   |   |-- ICartoonService.cs
+|   |   |-- ICommentService.cs
+|   |   |-- IFavoriteService.cs
+|   |   |-- IRatingService.cs
+|   |   |-- IUserService.cs
+|
+|-- AniMagic.Infrastructure/          (Infrastructure Layer)
+|   |-- Data/
+|   |   |-- AniMagicDbContext.cs
+|   |   |-- AniMagicDbContextFactory.cs
+|   |   |-- DataSeeder.cs
+|   |-- Repositories/
+|   |   |-- CartoonRepository.cs  <-- Implements pagination
+|   |   |-- CommentRepository.cs
+|   |   |-- FavoriteRepository.cs
+|   |   |-- RatingRepository.cs
+|   |   |-- UserRepository.cs
+|   |-- Configuration/
+|   |   |-- JwtSettings.cs
+|
+|-- AniMagic.Helpers/                  (Helper Classes)
+|   |-- Hasher.cs
+|   |-- JwtHelper.cs
+|
+|-- AniMagic.Tests/                    (Testing Layer) [Optional]
