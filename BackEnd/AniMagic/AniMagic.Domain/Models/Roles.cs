@@ -6,13 +6,15 @@ using System.Threading.Tasks;
 
 namespace AniMagic.Domain.Models;
 
-public static class Roles
+public class Roles
 {
-    public const string Admin = "Admin";
-    public const string User = "User";
+    public Guid Id { get; set; }
+    public string Name { get; set; }
 
-    public static bool IsValidRole(string role)
+    // Конструктор для удобства создания ролей
+    public Roles(string name)
     {
-        return role == Admin || role == User;
+        Id = Guid.NewGuid();
+        Name = name;
     }
 }

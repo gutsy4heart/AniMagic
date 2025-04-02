@@ -15,7 +15,7 @@ public class Cartoon
     public string Genre { get; set; }
     public DateTime ReleaseDate { get; set; }
     public string FilePath { get; set; } // Path to video file
-    //public ICollection<Episode> Episodes { get; set; } = new List<Episode>();
-    //public ICollection<Comment> Comments { get; set; } = new List<Comment>();
-    //public ICollection<Rating> Ratings { get; set; } = new List<Rating>();
+    public ICollection<Episode> Episodes { get; set; } = new List<Episode>();
+    public ICollection<Comment> Comments { get; set; } = new List<Comment>();
+    public ICollection<Rating> Ratings { get; set; } = new List<Rating>();
 }

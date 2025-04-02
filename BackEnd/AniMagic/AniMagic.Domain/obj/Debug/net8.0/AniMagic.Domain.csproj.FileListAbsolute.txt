@@ -9,3 +9,7 @@ C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Domain\obj\Debug\net8.
 C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Domain\obj\Debug\net8.0\refint\AniMagic.Domain.dll
 C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Domain\obj\Debug\net8.0\AniMagic.Domain.pdb
 C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Domain\obj\Debug\net8.0\ref\AniMagic.Domain.dll
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Domain\obj\Debug\net8.0\AniMagic.Domain.sourcelink.json
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Domain\bin\Debug\net8.0\AniMagic.Domain.runtimeconfig.json
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Domain\obj\Debug\net8.0\AniMagic.Domain.csproj.AssemblyReference.cache
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Domain\obj\Debug\net8.0\AniMagic.Domain.genruntimeconfig.cache

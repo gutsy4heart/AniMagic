@@ -1,0 +1,6 @@
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Infrastructure\obj\Debug\net8.0\AniMagic.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Infrastructure\obj\Debug\net8.0\AniMagic.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Infrastructure\obj\Debug\net8.0\AniMagic.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Infrastructure\obj\Debug\net8.0\AniMagic.Infrastructure.AssemblyInfo.cs
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Infrastructure\obj\Debug\net8.0\AniMagic.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Infrastructure\obj\Debug\net8.0\AniMagic.Infrastructure.sourcelink.json
