@@ -151,4 +151,15 @@ AniMagic/
 │── AniMagic.Middlewares/            (Custom Middlewares)
 │   │── ExceptionMiddleware.cs
 │   │── JwtMiddleware.cs
+
+
+
+
+
+
+AniMagic.Api → References AniMagic.Application and AniMagic.Contracts
+
+AniMagic.Application → References AniMagic.Domain, AniMagic.Infrastructure, and AniMagic.Contracts
+
+AniMagic.Infrastructure → References AniMagic.Domain
 │

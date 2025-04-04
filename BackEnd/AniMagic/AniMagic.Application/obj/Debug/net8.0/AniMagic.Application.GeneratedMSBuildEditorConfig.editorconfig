@@ -16,6 +16,6 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AniMagic.Application
-build_property.ProjectDir = C:\Users\Nurma_kf03\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Application\
+build_property.ProjectDir = C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Application\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

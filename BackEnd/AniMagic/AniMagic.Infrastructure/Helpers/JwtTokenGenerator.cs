@@ -7,9 +7,9 @@ using AniMagic.Domain.Models;
 
 namespace AniMagic.Infrastructure.Helpers;
 
-public static class JwtTokenGenerator
+public class JwtTokenGenerator
 {
-    public static string GenerateToken(User user, string secretKey)
+    public string GenerateToken(User user, string secretKey)
     {
         var tokenHandler = new JwtSecurityTokenHandler();
         var key = Encoding.UTF8.GetBytes(secretKey);

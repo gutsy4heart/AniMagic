@@ -3,56 +3,80 @@
   "WorkspaceRootPath": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A4D601D7-DCA2-4466-BD8C-0591131EB572}|AniMagic.Infrastructure\\AniMagic.Infrastructure.csproj|c:\\users\\murad\\desktop\\animagic\\backend\\animagic\\animagic.infrastructure\\data\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4D601D7-DCA2-4466-BD8C-0591131EB572}|AniMagic.Infrastructure\\AniMagic.Infrastructure.csproj|solutionrelative:animagic.infrastructure\\data\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF03449E-CAC6-45E6-B5D0-B8CB850337D5}|AniMagic.Domain\\AniMagic.Domain.csproj|c:\\users\\murad\\desktop\\animagic\\backend\\animagic\\animagic.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF03449E-CAC6-45E6-B5D0-B8CB850337D5}|AniMagic.Domain\\AniMagic.Domain.csproj|solutionrelative:animagic.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF03449E-CAC6-45E6-B5D0-B8CB850337D5}|AniMagic.Domain\\AniMagic.Domain.csproj|c:\\users\\murad\\desktop\\animagic\\backend\\animagic\\animagic.domain\\models\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF03449E-CAC6-45E6-B5D0-B8CB850337D5}|AniMagic.Domain\\AniMagic.Domain.csproj|solutionrelative:animagic.domain\\models\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A4D601D7-DCA2-4466-BD8C-0591131EB572}|AniMagic.Infrastructure\\AniMagic.Infrastructure.csproj|c:\\users\\murad\\desktop\\animagic\\backend\\animagic\\animagic.infrastructure\\data\\animagicdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4D601D7-DCA2-4466-BD8C-0591131EB572}|AniMagic.Infrastructure\\AniMagic.Infrastructure.csproj|solutionrelative:animagic.infrastructure\\data\\animagicdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4D601D7-DCA2-4466-BD8C-0591131EB572}|AniMagic.Infrastructure\\AniMagic.Infrastructure.csproj|c:\\users\\murad\\desktop\\animagic\\backend\\animagic\\animagic.infrastructure\\data\\animagicdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4D601D7-DCA2-4466-BD8C-0591131EB572}|AniMagic.Infrastructure\\AniMagic.Infrastructure.csproj|solutionrelative:animagic.infrastructure\\data\\animagicdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4D601D7-DCA2-4466-BD8C-0591131EB572}|AniMagic.Infrastructure\\AniMagic.Infrastructure.csproj|c:\\users\\murad\\desktop\\animagic\\backend\\animagic\\animagic.infrastructure\\helpers\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D601D7-DCA2-4466-BD8C-0591131EB572}|AniMagic.Infrastructure\\AniMagic.Infrastructure.csproj|solutionrelative:animagic.infrastructure\\helpers\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF03449E-CAC6-45E6-B5D0-B8CB850337D5}|AniMagic.Domain\\AniMagic.Domain.csproj|c:\\users\\murad\\desktop\\animagic\\backend\\animagic\\animagic.domain\\models\\cartoon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF03449E-CAC6-45E6-B5D0-B8CB850337D5}|AniMagic.Domain\\AniMagic.Domain.csproj|solutionrelative:animagic.domain\\models\\cartoon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9E8B3D3A-A5DA-4C3E-82D3-557F04C46A95}|AniMagic.Contracts\\AniMagic.Contracts.csproj|c:\\users\\murad\\desktop\\animagic\\backend\\animagic\\animagic.contracts\\responses\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E8B3D3A-A5DA-4C3E-82D3-557F04C46A95}|AniMagic.Contracts\\AniMagic.Contracts.csproj|solutionrelative:animagic.contracts\\responses\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF03449E-CAC6-45E6-B5D0-B8CB850337D5}|AniMagic.Domain\\AniMagic.Domain.csproj|c:\\users\\murad\\desktop\\animagic\\backend\\animagic\\animagic.domain\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF03449E-CAC6-45E6-B5D0-B8CB850337D5}|AniMagic.Domain\\AniMagic.Domain.csproj|solutionrelative:animagic.domain\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3553FEB-CBF1-4A65-A98C-C8B8361065D0}|AniMagic.Application\\AniMagic.Application.csproj|c:\\users\\murad\\desktop\\animagic\\backend\\animagic\\animagic.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3553FEB-CBF1-4A65-A98C-C8B8361065D0}|AniMagic.Application\\AniMagic.Application.csproj|solutionrelative:animagic.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF03449E-CAC6-45E6-B5D0-B8CB850337D5}|AniMagic.Domain\\AniMagic.Domain.csproj|c:\\users\\murad\\desktop\\animagic\\backend\\animagic\\animagic.domain\\interfaces\\iratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF03449E-CAC6-45E6-B5D0-B8CB850337D5}|AniMagic.Domain\\AniMagic.Domain.csproj|solutionrelative:animagic.domain\\interfaces\\iratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9E8B3D3A-A5DA-4C3E-82D3-557F04C46A95}|AniMagic.Contracts\\AniMagic.Contracts.csproj|c:\\users\\murad\\desktop\\animagic\\backend\\animagic\\animagic.contracts\\requests\\createcartoonrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E8B3D3A-A5DA-4C3E-82D3-557F04C46A95}|AniMagic.Contracts\\AniMagic.Contracts.csproj|solutionrelative:animagic.contracts\\requests\\createcartoonrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF03449E-CAC6-45E6-B5D0-B8CB850337D5}|AniMagic.Domain\\AniMagic.Domain.csproj|c:\\users\\murad\\desktop\\animagic\\backend\\animagic\\animagic.domain\\interfaces\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF03449E-CAC6-45E6-B5D0-B8CB850337D5}|AniMagic.Domain\\AniMagic.Domain.csproj|solutionrelative:animagic.domain\\interfaces\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF03449E-CAC6-45E6-B5D0-B8CB850337D5}|AniMagic.Domain\\AniMagic.Domain.csproj|c:\\users\\murad\\desktop\\animagic\\backend\\animagic\\animagic.domain\\concrete\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF03449E-CAC6-45E6-B5D0-B8CB850337D5}|AniMagic.Domain\\AniMagic.Domain.csproj|solutionrelative:animagic.domain\\concrete\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF03449E-CAC6-45E6-B5D0-B8CB850337D5}|AniMagic.Domain\\AniMagic.Domain.csproj|c:\\users\\murad\\desktop\\animagic\\backend\\animagic\\animagic.domain\\interfaces\\ifavoriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF03449E-CAC6-45E6-B5D0-B8CB850337D5}|AniMagic.Domain\\AniMagic.Domain.csproj|solutionrelative:animagic.domain\\interfaces\\ifavoriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF03449E-CAC6-45E6-B5D0-B8CB850337D5}|AniMagic.Domain\\AniMagic.Domain.csproj|c:\\users\\murad\\desktop\\animagic\\backend\\animagic\\animagic.domain\\interfaces\\icartoonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF03449E-CAC6-45E6-B5D0-B8CB850337D5}|AniMagic.Domain\\AniMagic.Domain.csproj|solutionrelative:animagic.domain\\interfaces\\icartoonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D8934EDB-8F7D-45EC-94DC-4E46AD232B1C}|AniMagic.Api\\AniMagic.Api.csproj|c:\\users\\murad\\desktop\\animagic\\backend\\animagic\\animagic.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8934EDB-8F7D-45EC-94DC-4E46AD232B1C}|AniMagic.Api\\AniMagic.Api.csproj|solutionrelative:animagic.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF03449E-CAC6-45E6-B5D0-B8CB850337D5}|AniMagic.Domain\\AniMagic.Domain.csproj|c:\\users\\murad\\desktop\\animagic\\backend\\animagic\\animagic.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF03449E-CAC6-45E6-B5D0-B8CB850337D5}|AniMagic.Domain\\AniMagic.Domain.csproj|solutionrelative:animagic.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF03449E-CAC6-45E6-B5D0-B8CB850337D5}|AniMagic.Domain\\AniMagic.Domain.csproj|c:\\users\\murad\\desktop\\animagic\\backend\\animagic\\animagic.domain\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF03449E-CAC6-45E6-B5D0-B8CB850337D5}|AniMagic.Domain\\AniMagic.Domain.csproj|solutionrelative:animagic.domain\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D8934EDB-8F7D-45EC-94DC-4E46AD232B1C}|AniMagic.Api\\AniMagic.Api.csproj|c:\\users\\murad\\desktop\\animagic\\backend\\animagic\\animagic.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8934EDB-8F7D-45EC-94DC-4E46AD232B1C}|AniMagic.Api\\AniMagic.Api.csproj|solutionrelative:animagic.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3553FEB-CBF1-4A65-A98C-C8B8361065D0}|AniMagic.Application\\AniMagic.Application.csproj|c:\\users\\murad\\desktop\\animagic\\backend\\animagic\\animagic.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3553FEB-CBF1-4A65-A98C-C8B8361065D0}|AniMagic.Application\\AniMagic.Application.csproj|solutionrelative:animagic.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E8B3D3A-A5DA-4C3E-82D3-557F04C46A95}|AniMagic.Contracts\\AniMagic.Contracts.csproj|c:\\users\\murad\\desktop\\animagic\\backend\\animagic\\animagic.contracts\\requests\\addfavoriterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E8B3D3A-A5DA-4C3E-82D3-557F04C46A95}|AniMagic.Contracts\\AniMagic.Contracts.csproj|solutionrelative:animagic.contracts\\requests\\addfavoriterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E8B3D3A-A5DA-4C3E-82D3-557F04C46A95}|AniMagic.Contracts\\AniMagic.Contracts.csproj|c:\\users\\murad\\desktop\\animagic\\backend\\animagic\\animagic.contracts\\requests\\userregisterrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E8B3D3A-A5DA-4C3E-82D3-557F04C46A95}|AniMagic.Contracts\\AniMagic.Contracts.csproj|solutionrelative:animagic.contracts\\requests\\userregisterrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E8B3D3A-A5DA-4C3E-82D3-557F04C46A95}|AniMagic.Contracts\\AniMagic.Contracts.csproj|c:\\users\\murad\\desktop\\animagic\\backend\\animagic\\animagic.contracts\\requests\\ratecartoonrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E8B3D3A-A5DA-4C3E-82D3-557F04C46A95}|AniMagic.Contracts\\AniMagic.Contracts.csproj|solutionrelative:animagic.contracts\\requests\\ratecartoonrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E8B3D3A-A5DA-4C3E-82D3-557F04C46A95}|AniMagic.Contracts\\AniMagic.Contracts.csproj|c:\\users\\murad\\desktop\\animagic\\backend\\animagic\\animagic.contracts\\requests\\addcommentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E8B3D3A-A5DA-4C3E-82D3-557F04C46A95}|AniMagic.Contracts\\AniMagic.Contracts.csproj|solutionrelative:animagic.contracts\\requests\\addcommentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E8B3D3A-A5DA-4C3E-82D3-557F04C46A95}|AniMagic.Contracts\\AniMagic.Contracts.csproj|c:\\users\\murad\\desktop\\animagic\\backend\\animagic\\animagic.contracts\\requests\\addepisoderequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E8B3D3A-A5DA-4C3E-82D3-557F04C46A95}|AniMagic.Contracts\\AniMagic.Contracts.csproj|solutionrelative:animagic.contracts\\requests\\addepisoderequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E8B3D3A-A5DA-4C3E-82D3-557F04C46A95}|AniMagic.Contracts\\AniMagic.Contracts.csproj|c:\\users\\murad\\desktop\\animagic\\backend\\animagic\\animagic.contracts\\requests\\updatecartoonrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E8B3D3A-A5DA-4C3E-82D3-557F04C46A95}|AniMagic.Contracts\\AniMagic.Contracts.csproj|solutionrelative:animagic.contracts\\requests\\updatecartoonrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF03449E-CAC6-45E6-B5D0-B8CB850337D5}|AniMagic.Domain\\AniMagic.Domain.csproj|c:\\users\\murad\\desktop\\animagic\\backend\\animagic\\animagic.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF03449E-CAC6-45E6-B5D0-B8CB850337D5}|AniMagic.Domain\\AniMagic.Domain.csproj|solutionrelative:animagic.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E8B3D3A-A5DA-4C3E-82D3-557F04C46A95}|AniMagic.Contracts\\AniMagic.Contracts.csproj|c:\\users\\murad\\desktop\\animagic\\backend\\animagic\\animagic.contracts\\requests\\userloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E8B3D3A-A5DA-4C3E-82D3-557F04C46A95}|AniMagic.Contracts\\AniMagic.Contracts.csproj|solutionrelative:animagic.contracts\\requests\\userloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3553FEB-CBF1-4A65-A98C-C8B8361065D0}|AniMagic.Application\\AniMagic.Application.csproj|c:\\users\\murad\\desktop\\animagic\\backend\\animagic\\animagic.application\\dtos\\cartoon\\addfavoritedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3553FEB-CBF1-4A65-A98C-C8B8361065D0}|AniMagic.Application\\AniMagic.Application.csproj|solutionrelative:animagic.application\\dtos\\cartoon\\addfavoritedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,164 +94,240 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Cartoon.cs",
-              "DocumentMoniker": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\Models\\Cartoon.cs",
-              "RelativeDocumentMoniker": "AniMagic.Domain\\Models\\Cartoon.cs",
-              "ToolTip": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\Models\\Cartoon.cs",
-              "RelativeToolTip": "AniMagic.Domain\\Models\\Cartoon.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T09:48:05.781Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Comment.cs",
-              "DocumentMoniker": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\Models\\Comment.cs",
-              "RelativeDocumentMoniker": "AniMagic.Domain\\Models\\Comment.cs",
-              "ToolTip": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\Models\\Comment.cs",
-              "RelativeToolTip": "AniMagic.Domain\\Models\\Comment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T09:47:43.874Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\Models\\User.cs",
-              "RelativeDocumentMoniker": "AniMagic.Domain\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\Models\\User.cs*",
-              "RelativeToolTip": "AniMagic.Domain\\Models\\User.cs*",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T09:44:23.179Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DataSeeder.cs",
-              "DocumentMoniker": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Infrastructure\\Data\\DataSeeder.cs",
-              "RelativeDocumentMoniker": "AniMagic.Infrastructure\\Data\\DataSeeder.cs",
-              "ToolTip": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Infrastructure\\Data\\DataSeeder.cs*",
-              "RelativeToolTip": "AniMagic.Infrastructure\\Data\\DataSeeder.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T09:40:44.932Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AniMagicDbContextFactory.cs",
-              "DocumentMoniker": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Infrastructure\\Data\\AniMagicDbContextFactory.cs",
-              "RelativeDocumentMoniker": "AniMagic.Infrastructure\\Data\\AniMagicDbContextFactory.cs",
-              "ToolTip": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Infrastructure\\Data\\AniMagicDbContextFactory.cs",
-              "RelativeToolTip": "AniMagic.Infrastructure\\Data\\AniMagicDbContextFactory.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T09:23:03.139Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Roles.cs",
-              "DocumentMoniker": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\Models\\Roles.cs",
-              "RelativeDocumentMoniker": "AniMagic.Domain\\Models\\Roles.cs",
-              "ToolTip": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\Models\\Roles.cs*",
-              "RelativeToolTip": "AniMagic.Domain\\Models\\Roles.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T09:17:35.565Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "AniMagicDbContext.cs",
               "DocumentMoniker": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Infrastructure\\Data\\AniMagicDbContext.cs",
               "RelativeDocumentMoniker": "AniMagic.Infrastructure\\Data\\AniMagicDbContext.cs",
               "ToolTip": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Infrastructure\\Data\\AniMagicDbContext.cs",
               "RelativeToolTip": "AniMagic.Infrastructure\\Data\\AniMagicDbContext.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwC4AAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T09:15:34.548Z",
+              "WhenOpened": "2025-04-04T08:38:54.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\Concrete\\UserRepository.cs",
+              "RelativeDocumentMoniker": "AniMagic.Domain\\Concrete\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\Concrete\\UserRepository.cs",
+              "RelativeToolTip": "AniMagic.Domain\\Concrete\\UserRepository.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T19:05:17.877Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "IRatingRepository.cs",
-              "DocumentMoniker": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\Interfaces\\IRatingRepository.cs",
-              "RelativeDocumentMoniker": "AniMagic.Domain\\Interfaces\\IRatingRepository.cs",
-              "ToolTip": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\Interfaces\\IRatingRepository.cs",
-              "RelativeToolTip": "AniMagic.Domain\\Interfaces\\IRatingRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T09:10:06.035Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ICommentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\Interfaces\\ICommentRepository.cs",
-              "RelativeDocumentMoniker": "AniMagic.Domain\\Interfaces\\ICommentRepository.cs",
-              "ToolTip": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\Interfaces\\ICommentRepository.cs",
-              "RelativeToolTip": "AniMagic.Domain\\Interfaces\\ICommentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T09:08:29.775Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IFavoriteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\Interfaces\\IFavoriteRepository.cs",
-              "RelativeDocumentMoniker": "AniMagic.Domain\\Interfaces\\IFavoriteRepository.cs",
-              "ToolTip": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\Interfaces\\IFavoriteRepository.cs",
-              "RelativeToolTip": "AniMagic.Domain\\Interfaces\\IFavoriteRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T09:06:30.663Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ICartoonRepository.cs",
-              "DocumentMoniker": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\Interfaces\\ICartoonRepository.cs",
-              "RelativeDocumentMoniker": "AniMagic.Domain\\Interfaces\\ICartoonRepository.cs",
-              "ToolTip": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\Interfaces\\ICartoonRepository.cs",
-              "RelativeToolTip": "AniMagic.Domain\\Interfaces\\ICartoonRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T09:04:31.45Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "AniMagic.Domain\\Interfaces\\IUserRepository.cs",
               "ToolTip": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\Interfaces\\IUserRepository.cs",
               "RelativeToolTip": "AniMagic.Domain\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T09:02:34.071Z"
+              "WhenOpened": "2025-04-03T18:51:34.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateCartoonRequest.cs",
+              "DocumentMoniker": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Contracts\\Requests\\CreateCartoonRequest.cs",
+              "RelativeDocumentMoniker": "AniMagic.Contracts\\Requests\\CreateCartoonRequest.cs",
+              "ToolTip": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Contracts\\Requests\\CreateCartoonRequest.cs",
+              "RelativeToolTip": "AniMagic.Contracts\\Requests\\CreateCartoonRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T17:36:50.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AniMagic.Api\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AniMagic.Api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T17:34:45.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Application\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "AniMagic.Application\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Application\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "AniMagic.Application\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwAsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T17:16:02.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthResponse.cs",
+              "DocumentMoniker": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Contracts\\Responses\\AuthResponse.cs",
+              "RelativeDocumentMoniker": "AniMagic.Contracts\\Responses\\AuthResponse.cs",
+              "ToolTip": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Contracts\\Responses\\AuthResponse.cs",
+              "RelativeToolTip": "AniMagic.Contracts\\Responses\\AuthResponse.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAcwA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T17:21:55.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JwtTokenGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Infrastructure\\Helpers\\JwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "AniMagic.Infrastructure\\Helpers\\JwtTokenGenerator.cs",
+              "ToolTip": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Infrastructure\\Helpers\\JwtTokenGenerator.cs",
+              "RelativeToolTip": "AniMagic.Infrastructure\\Helpers\\JwtTokenGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T17:25:48.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Api\\Program.cs",
+              "RelativeDocumentMoniker": "AniMagic.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Api\\Program.cs",
+              "RelativeToolTip": "AniMagic.Api\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswA4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T18:52:35.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddFavoriteRequest.cs",
+              "DocumentMoniker": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Contracts\\Requests\\AddFavoriteRequest.cs",
+              "RelativeDocumentMoniker": "AniMagic.Contracts\\Requests\\AddFavoriteRequest.cs",
+              "ToolTip": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Contracts\\Requests\\AddFavoriteRequest.cs",
+              "RelativeToolTip": "AniMagic.Contracts\\Requests\\AddFavoriteRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T17:38:54.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "AniMagic.Application\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Application\\Services\\AuthService.cs",
+              "RelativeToolTip": "AniMagic.Application\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T17:26:40.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UpdateCartoonRequest.cs",
+              "DocumentMoniker": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Contracts\\Requests\\UpdateCartoonRequest.cs",
+              "RelativeDocumentMoniker": "AniMagic.Contracts\\Requests\\UpdateCartoonRequest.cs",
+              "ToolTip": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Contracts\\Requests\\UpdateCartoonRequest.cs",
+              "RelativeToolTip": "AniMagic.Contracts\\Requests\\UpdateCartoonRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T17:37:24.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserRegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Contracts\\Requests\\UserRegisterRequest.cs",
+              "RelativeDocumentMoniker": "AniMagic.Contracts\\Requests\\UserRegisterRequest.cs",
+              "ToolTip": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Contracts\\Requests\\UserRegisterRequest.cs",
+              "RelativeToolTip": "AniMagic.Contracts\\Requests\\UserRegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T17:19:16.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AddEpisodeRequest.cs",
+              "DocumentMoniker": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Contracts\\Requests\\AddEpisodeRequest.cs",
+              "RelativeDocumentMoniker": "AniMagic.Contracts\\Requests\\AddEpisodeRequest.cs",
+              "ToolTip": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Contracts\\Requests\\AddEpisodeRequest.cs",
+              "RelativeToolTip": "AniMagic.Contracts\\Requests\\AddEpisodeRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T17:37:47.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AddCommentRequest.cs",
+              "DocumentMoniker": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Contracts\\Requests\\AddCommentRequest.cs",
+              "RelativeDocumentMoniker": "AniMagic.Contracts\\Requests\\AddCommentRequest.cs",
+              "ToolTip": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Contracts\\Requests\\AddCommentRequest.cs",
+              "RelativeToolTip": "AniMagic.Contracts\\Requests\\AddCommentRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T17:38:04.167Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\Interfaces\\IRepository.cs",
-              "RelativeDocumentMoniker": "AniMagic.Domain\\Interfaces\\IRepository.cs",
-              "ToolTip": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\Interfaces\\IRepository.cs",
-              "RelativeToolTip": "AniMagic.Domain\\Interfaces\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
+              "Title": "RateCartoonRequest.cs",
+              "DocumentMoniker": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Contracts\\Requests\\RateCartoonRequest.cs",
+              "RelativeDocumentMoniker": "AniMagic.Contracts\\Requests\\RateCartoonRequest.cs",
+              "ToolTip": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Contracts\\Requests\\RateCartoonRequest.cs",
+              "RelativeToolTip": "AniMagic.Contracts\\Requests\\RateCartoonRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T08:58:51.044Z"
+              "WhenOpened": "2025-04-03T17:38:30.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\Models\\User.cs",
+              "RelativeDocumentMoniker": "AniMagic.Domain\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Domain\\Models\\User.cs",
+              "RelativeToolTip": "AniMagic.Domain\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAtwAkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T17:31:00.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserLoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Contracts\\Requests\\UserLoginRequest.cs",
+              "RelativeDocumentMoniker": "AniMagic.Contracts\\Requests\\UserLoginRequest.cs",
+              "ToolTip": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Contracts\\Requests\\UserLoginRequest.cs",
+              "RelativeToolTip": "AniMagic.Contracts\\Requests\\UserLoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T17:18:11.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AddFavoriteDto.cs",
+              "DocumentMoniker": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Application\\DTOs\\Cartoon\\AddFavoriteDto.cs",
+              "RelativeDocumentMoniker": "AniMagic.Application\\DTOs\\Cartoon\\AddFavoriteDto.cs",
+              "ToolTip": "C:\\Users\\murad\\Desktop\\AniMagic\\BackEnd\\AniMagic\\AniMagic.Application\\DTOs\\Cartoon\\AddFavoriteDto.cs",
+              "RelativeToolTip": "AniMagic.Application\\DTOs\\Cartoon\\AddFavoriteDto.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwCwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T14:14:44.141Z"
             }
           ]
         }

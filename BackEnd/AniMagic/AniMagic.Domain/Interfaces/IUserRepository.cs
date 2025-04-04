@@ -9,6 +9,10 @@ namespace AniMagic.Domain.Interfaces;
 
 public interface IUserRepository: IRepository<User>
 {
-    Task<User> GetByUsernameAsync(string username);
-    Task<User> AuthenticateAsync(string username, string password);
+    Task<User?> GetByIdAsync(Guid userId);
+    Task<User?> GetByUsernameAsync(string username);
+    Task<User?> GetByEmailAsync(string email);
+    Task AddUserAsync(User user);
+    Task UpdateUserAsync(User user);
+    Task DeleteUserAsync(Guid id);
 }

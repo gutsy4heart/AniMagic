@@ -20,7 +20,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AniMagic.Contracts\AniMagic.Contracts.csproj" />
     <ProjectReference Include="..\AniMagic.Domain\AniMagic.Domain.csproj" />
+    <ProjectReference Include="..\AniMagic.Infrastructure\AniMagic.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

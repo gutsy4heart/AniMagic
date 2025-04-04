@@ -22,3 +22,15 @@ C:\Users\Nurma_kf03\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Infrastructure\ob
 C:\Users\Nurma_kf03\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Infrastructure\obj\Debug\net8.0\AniMagic.Infrastructure.pdb
 C:\Users\Nurma_kf03\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Infrastructure\obj\Debug\net8.0\AniMagic.Infrastructure.genruntimeconfig.cache
 C:\Users\Nurma_kf03\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Infrastructure\obj\Debug\net8.0\ref\AniMagic.Infrastructure.dll
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Infrastructure\bin\Debug\net8.0\AniMagic.Infrastructure.deps.json
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Infrastructure\bin\Debug\net8.0\AniMagic.Infrastructure.runtimeconfig.json
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Infrastructure\bin\Debug\net8.0\AniMagic.Infrastructure.dll
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Infrastructure\bin\Debug\net8.0\AniMagic.Infrastructure.pdb
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Infrastructure\bin\Debug\net8.0\AniMagic.Domain.dll
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Infrastructure\bin\Debug\net8.0\AniMagic.Domain.pdb
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Infrastructure\obj\Debug\net8.0\AniMagic.69DBD14B.Up2Date
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Infrastructure\obj\Debug\net8.0\AniMagic.Infrastructure.dll
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Infrastructure\obj\Debug\net8.0\refint\AniMagic.Infrastructure.dll
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Infrastructure\obj\Debug\net8.0\AniMagic.Infrastructure.pdb
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Infrastructure\obj\Debug\net8.0\AniMagic.Infrastructure.genruntimeconfig.cache
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Infrastructure\obj\Debug\net8.0\ref\AniMagic.Infrastructure.dll

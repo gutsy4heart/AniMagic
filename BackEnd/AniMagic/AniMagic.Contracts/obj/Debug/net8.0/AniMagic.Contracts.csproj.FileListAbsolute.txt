@@ -1,0 +1,12 @@
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Contracts\bin\Debug\net8.0\AniMagic.Contracts.deps.json
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Contracts\bin\Debug\net8.0\AniMagic.Contracts.dll
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Contracts\bin\Debug\net8.0\AniMagic.Contracts.pdb
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Contracts\obj\Debug\net8.0\AniMagic.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Contracts\obj\Debug\net8.0\AniMagic.Contracts.AssemblyInfoInputs.cache
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Contracts\obj\Debug\net8.0\AniMagic.Contracts.AssemblyInfo.cs
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Contracts\obj\Debug\net8.0\AniMagic.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Contracts\obj\Debug\net8.0\AniMagic.Contracts.sourcelink.json
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Contracts\obj\Debug\net8.0\AniMagic.Contracts.dll
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Contracts\obj\Debug\net8.0\refint\AniMagic.Contracts.dll
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Contracts\obj\Debug\net8.0\AniMagic.Contracts.pdb
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Contracts\obj\Debug\net8.0\ref\AniMagic.Contracts.dll
