@@ -1,3 +1,6 @@
+
+
+
 AniMagic/
 |-- AniMagic.Api/                     (Presentation Layer)
 |   |-- Controllers/
@@ -163,3 +166,17 @@ AniMagic.Application → References AniMagic.Domain, AniMagic.Infrastructure, an
 
 AniMagic.Infrastructure → References AniMagic.Domain
 │
+
+
+
+AniMagic.Api
+ ├── AniMagic.Application
+ └── AniMagic.Contracts
+
+AniMagic.Application
+ ├── AniMagic.Domain
+ ├── AniMagic.Infrastructure
+ └── AniMagic.Contracts
+
+AniMagic.Infrastructure
+ └── AniMagic.Domain

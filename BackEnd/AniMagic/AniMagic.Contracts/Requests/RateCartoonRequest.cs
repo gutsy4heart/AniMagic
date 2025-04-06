@@ -9,5 +9,5 @@ namespace AniMagic.Contracts.Requests;
 public class RateCartoonRequest
 {
     public Guid CartoonId { get; set; }
-    public int Rating { get; set; }  // Rating on a scale of 1-10
+    public int Rating { get; set; }  
 }

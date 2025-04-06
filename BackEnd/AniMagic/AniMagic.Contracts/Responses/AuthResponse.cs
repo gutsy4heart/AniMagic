@@ -13,5 +13,4 @@ public class AuthResponse
     public string Message { get; set; }
     public string Token { get; set; }
 
-    public IEnumerable<UserRegisterRequest> Items { get; set; } = [];
 }

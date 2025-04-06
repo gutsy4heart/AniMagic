@@ -35,7 +35,6 @@ C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Api\bin\Debug\net8.0\A
 C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Api\bin\Debug\net8.0\Humanizer.dll
 C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Api\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Api\bin\Debug\net8.0\Microsoft.Bcl.Cryptography.dll
-C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Api\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
 C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Api\bin\Debug\net8.0\Microsoft.Build.Locator.dll
 C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -190,3 +189,4 @@ C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Api\bin\Debug\net8.0\A
 C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Api\bin\Debug\net8.0\AniMagic.Domain.pdb
 C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Api\bin\Debug\net8.0\AniMagic.Infrastructure.pdb
 C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Api\obj\Debug\net8.0\AniMagic.Api.sourcelink.json
+C:\Users\murad\Desktop\AniMagic\BackEnd\AniMagic\AniMagic.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

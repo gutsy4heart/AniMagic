@@ -19,8 +19,6 @@
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\AniMagic.Infrastructure\AniMagic.Infrastructure.csproj" />
-  </ItemGroup>
+
 
 </Project>

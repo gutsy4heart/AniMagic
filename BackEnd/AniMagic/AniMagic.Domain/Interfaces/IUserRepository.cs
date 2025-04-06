@@ -1,14 +1,13 @@
 ﻿using AniMagic.Domain.Models;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace AniMagic.Domain.Interfaces;
 
-public interface IUserRepository: IRepository<User>
+public interface IUserRepository
 {
+    Task<IEnumerable<User>> GetAllAsync();
     Task<User?> GetByIdAsync(Guid userId);
     Task<User?> GetByUsernameAsync(string username);
     Task<User?> GetByEmailAsync(string email);

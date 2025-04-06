@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.14" />
     <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.3">
       <PrivateAssets>all</PrivateAssets>
@@ -27,8 +28,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AniMagic.Application\AniMagic.Application.csproj" />
-    <ProjectReference Include="..\AniMagic.Contracts\AniMagic.Contracts.csproj" />
+	  <ProjectReference Include="..\AniMagic.Infrastructure\AniMagic.Infrastructure.csproj" />
+	  <ProjectReference Include="..\AniMagic.Application\AniMagic.Application.csproj" />
+	  <ProjectReference Include="..\AniMagic.Domain\AniMagic.Domain.csproj" />
+	  <ProjectReference Include="..\AniMagic.Contracts\AniMagic.Contracts.csproj" />
   </ItemGroup>
 
 </Project>

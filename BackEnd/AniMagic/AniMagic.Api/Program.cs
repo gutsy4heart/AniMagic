@@ -1,26 +1,29 @@
-using AniMagic.Application.Interfaces;
+﻿using AniMagic.Application.Interfaces;
 using AniMagic.Application.Services;
 using AniMagic.Domain.Interfaces;
+using AniMagic.Infrastructure.Concrete;
+using AniMagic.Infrastructure.Data;
+using AniMagic.Infrastructure.Helpers;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Подключение к БД
+builder.Services.AddDbContext<AniMagicDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+// Регистрация зависимостей
+builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<IUserRepository, UserRepository>(); // ⬅️ Этого не хватало!
+builder.Services.AddSingleton<JwtTokenGenerator>(); // если stateless helper
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<IAuthService, AuthService>();
-//builder.Services.AddScoped<IUserRepository, UserRepository>();
-
-
-
 var app = builder.Build();
 
-
-
-// Configure the HTTP request pipeline.
+// Конфигурация middleware и т.д.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -28,9 +31,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.MapControllers();
-
 app.Run();
