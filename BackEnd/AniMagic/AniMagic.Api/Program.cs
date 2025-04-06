@@ -10,7 +10,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Подключение к БД
 builder.Services.AddDbContext<AniMagicDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"),
+        b => b.MigrationsAssembly("AniMagic.Infrastructure")));
+
 
 // Регистрация зависимостей
 builder.Services.AddScoped<IAuthService, AuthService>();

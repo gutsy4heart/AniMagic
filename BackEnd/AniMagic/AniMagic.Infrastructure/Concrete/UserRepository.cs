@@ -34,7 +34,10 @@ public class UserRepository : IUserRepository
 
     public async Task<User?> GetByUsernameAsync(string username)
     {
-        return await _context.Users.FirstOrDefaultAsync(x => x.Username == username);
+        return await _context.Users
+        .Include(u => u.Role)  // Гарантирует, что роль будет загружена
+        .FirstOrDefaultAsync(x => x.Username == username);
+
     }
 
     public async Task AddUserAsync(User user)

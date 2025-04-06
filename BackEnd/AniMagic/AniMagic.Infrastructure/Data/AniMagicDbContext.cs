@@ -25,44 +25,20 @@ public class AniMagicDbContext : DbContext
     {
 
         base.OnModelCreating(modelBuilder);
-
-        // Configure Role entity
-        modelBuilder.Entity<Roles>()
-            .HasKey(r => r.Id);
-
-        modelBuilder.Entity<Roles>()
-            .HasData(
-                new Roles("Admin") { Id = Guid.NewGuid() },
-                new Roles("User") { Id = Guid.NewGuid() }
-            );
-
-        // Configure User entity
-        modelBuilder.Entity<User>()
-            .HasKey(u => u.Id);
-
-        modelBuilder.Entity<User>()
-            .HasOne(u => u.Role)
-            .WithMany()
-            .HasForeignKey(u => u.RoleId)
-            .OnDelete(DeleteBehavior.Restrict);
-
-        // Configure Cartoon entity
-        modelBuilder.Entity<Cartoon>()
+        // Configure Comment entity
+        modelBuilder.Entity<Comment>()
             .HasKey(c => c.Id);
 
-        // Configure Favorite entity
-        modelBuilder.Entity<Favorite>()
-            .HasKey(f => new { f.UserId, f.CartoonId });
+        modelBuilder.Entity<Comment>()
+            .HasOne(c => c.User)
+            .WithMany(u => u.Comments)
+            .HasForeignKey(c => c.UserId);
 
-        modelBuilder.Entity<Favorite>()
-            .HasOne(f => f.User)
-            .WithMany(u => u.Favorites)
-            .HasForeignKey(f => f.UserId);
-
-        modelBuilder.Entity<Favorite>()
-            .HasOne(f => f.Cartoon)
-            .WithMany()
-            .HasForeignKey(f => f.CartoonId);
+        modelBuilder.Entity<Comment>()
+            .HasOne(c => c.Cartoon)
+            .WithMany(c => c.Comments)
+            .HasForeignKey(c => c.CartoonId)
+            .HasConstraintName("FK_Comment_Cartoon");  // Указываем имя внешнего ключа
 
         // Configure Rating entity
         modelBuilder.Entity<Rating>()
@@ -75,22 +51,10 @@ public class AniMagicDbContext : DbContext
 
         modelBuilder.Entity<Rating>()
             .HasOne(r => r.Cartoon)
-            .WithMany()
-            .HasForeignKey(r => r.CartoonId);
+            .WithMany(c => c.Ratings)
+            .HasForeignKey(r => r.CartoonId)
+            .HasConstraintName("FK_Rating_Cartoon");  // Указываем имя внешнего ключа
 
-        // Configure Comment entity
-        modelBuilder.Entity<Comment>()
-            .HasKey(c => c.Id);
-
-        modelBuilder.Entity<Comment>()
-            .HasOne(c => c.User)
-            .WithMany(u => u.Comments)
-            .HasForeignKey(c => c.UserId);
-
-        modelBuilder.Entity<Comment>()
-            .HasOne(c => c.Cartoon)
-            .WithMany()
-            .HasForeignKey(c => c.CartoonId);
     }
 }
 

@@ -22,7 +22,7 @@ public class AuthController : ControllerBase
     /// <param name="request">User registration request</param>
     /// <returns>Authentication response with JWT token</returns>
     [HttpPost("register")]
-    public async Task<ActionResult<AuthResponse>> Register([FromBody] UserRegisterRequest request)
+    public async Task<ActionResult<AuthResponse>> Register([FromForm] UserRegisterRequest request)
     {
         var response = await _authService.RegisterAsync(request);
         if (response.Success)
@@ -36,7 +36,7 @@ public class AuthController : ControllerBase
     /// <param name="request">User login request</param>
     /// <returns>Authentication response with JWT token</returns>
     [HttpPost("login")]
-    public async Task<ActionResult<AuthResponse>> Login([FromBody] UserLoginRequest request)
+    public async Task<ActionResult<AuthResponse>> Login([FromForm] UserLoginRequest request)
     {
         var response = await _authService.LoginAsync(request);
         if (response.Success)

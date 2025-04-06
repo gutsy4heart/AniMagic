@@ -11,15 +11,17 @@ public class JwtTokenGenerator
 {
     public string GenerateToken(User user, string secretKey)
     {
+        
+
         var tokenHandler = new JwtSecurityTokenHandler();
         var key = Encoding.UTF8.GetBytes(secretKey);
 
         var claims = new[]
         {
-                new Claim(ClaimTypes.Name, user.Username),
-                new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
-                new Claim(ClaimTypes.Role, user.Role.Name)
-            };
+        new Claim(ClaimTypes.Name, user.Username),
+        new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+        new Claim(ClaimTypes.Role, user.Role.Name)
+    };
 
         var tokenDescriptor = new SecurityTokenDescriptor
         {
@@ -31,4 +33,5 @@ public class JwtTokenGenerator
         var token = tokenHandler.CreateToken(tokenDescriptor);
         return tokenHandler.WriteToken(token);
     }
+
 }

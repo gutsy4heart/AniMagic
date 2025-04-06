@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AniMagic.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16c5fb869a8c129157421555200938fddb1fa880")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+435a945f7718303c65f87fcc9fb5fb0a5e1c1bb4")]
 [assembly: System.Reflection.AssemblyProductAttribute("AniMagic.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AniMagic.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
