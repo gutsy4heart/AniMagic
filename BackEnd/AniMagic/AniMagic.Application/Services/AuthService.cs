@@ -83,7 +83,6 @@ public class AuthService : IAuthService
 
         return new AuthResponse
         {
-            Success = true,
             Message = "Login successful",
             Token = token
         };

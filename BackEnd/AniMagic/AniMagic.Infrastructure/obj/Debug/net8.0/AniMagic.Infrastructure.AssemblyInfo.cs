@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AniMagic.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+435a945f7718303c65f87fcc9fb5fb0a5e1c1bb4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49bc9055e702f5a798e806c09d2ea646adfa3eea")]
 [assembly: System.Reflection.AssemblyProductAttribute("AniMagic.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AniMagic.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

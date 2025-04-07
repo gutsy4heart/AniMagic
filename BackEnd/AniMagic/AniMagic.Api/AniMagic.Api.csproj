@@ -24,10 +24,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Middlewares\" />
-  </ItemGroup>
-
-  <ItemGroup>
 	  <ProjectReference Include="..\AniMagic.Infrastructure\AniMagic.Infrastructure.csproj" />
 	  <ProjectReference Include="..\AniMagic.Application\AniMagic.Application.csproj" />
 	  <ProjectReference Include="..\AniMagic.Domain\AniMagic.Domain.csproj" />

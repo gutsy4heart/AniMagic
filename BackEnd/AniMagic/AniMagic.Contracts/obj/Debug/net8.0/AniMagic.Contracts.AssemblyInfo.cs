@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AniMagic.Contracts")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16c5fb869a8c129157421555200938fddb1fa880")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49bc9055e702f5a798e806c09d2ea646adfa3eea")]
 [assembly: System.Reflection.AssemblyProductAttribute("AniMagic.Contracts")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AniMagic.Contracts")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
