@@ -1,0 +1,253 @@
+/* Добавляем плавный переход для всех элементов */
+* {
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+/* Темная тема (по умолчанию) */
+body {
+    background-color: #101010;
+    color: white;
+}
+
+/* Светлая тема */
+body.light-theme {
+    background-color: white;
+    color: black;
+}
+
+/* Header и Footer */
+header, footer {
+    display: block;
+    background: #181818;
+    color: white;
+}
+
+body.light-theme header,
+body.light-theme footer {
+    background: #f1f1f1;
+    color: black;
+}
+
+/* Стили для контейнера поиска */
+.search-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/* Изначально скрываем поле поиска и кнопку */
+.search-input, 
+#search-button {
+    opacity: 0;
+    width: 0;
+    padding: 0;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+}
+
+/* Когда активен поиск, показываем input и кнопку */
+.search-container.active .search-input{
+    opacity: 1;
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+.search-container.active #search-button {
+    opacity: 1;
+    width: 70px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Кнопка поиска */
+#search-toggle {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+/* Светлая тема */
+body.light-theme #search-toggle {
+    color: black;
+}
+
+.search-input {
+    border-radius: 5px;
+    outline: none;
+    background-color: white;
+    color: black;
+}
+
+/* Кнопка "Go" */
+#search-button {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: background 0.3s;
+}
+
+#search-button:hover {
+    background-color: #c40812;
+}
+
+/* Светлая тема */
+body.light-theme .search-input {
+    border: 1px solid black;
+    color: black;
+}
+
+body.light-theme #search-button {
+    background-color: black;
+    color: white;
+}
+
+
+/* Тёмная тема (по умолчанию) */
+#search-toggle, 
+.burger-icon {
+    color: white;
+    transition: color 0.3s ease;
+}
+
+/* Светлая тема */
+body.light-theme #search-toggle, 
+body.light-theme .burger-icon {
+    color: black;
+}
+
+/* Navbar */
+.navbar {
+    background: #181818;
+    z-index: 1000;
+}
+
+.navbar a {
+    margin-left: 22px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Светлая тема для Navbar */
+body.light-theme .navbar {
+    background-color: #f8f9fa;
+}
+
+body.light-theme .navbar a {
+    color: black;
+}
+
+/* Кнопка переключения темы */
+.theme-toggle {
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    padding: 5px;
+    margin-left: 20px;
+    background: none;
+    color: white;
+}
+
+/* Кнопка темы в светлой теме */
+body.light-theme .theme-toggle {
+    color: black;
+}
+
+.categories {
+    position: relative;
+}
+
+.categories .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    border-radius: 5px;
+    z-index: 1000;
+    min-width: 150px;
+}
+
+/* Автоматическое появление dropdown */
+.categories:hover .dropdown-menu {
+    display: block;
+}
+
+
+/* Carousel */
+.carousel {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.carousel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.carousel img.active {
+    opacity: 1;
+}
+
+/* Кнопка "Watch Now" */
+.watch-button {
+    position: absolute;
+    bottom: 20px;
+    left: 47%;
+    transform: translateX(-50%), translateY(50%);
+    background: rgba(229, 9, 20, 0.8);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+    z-index: 2; /* Убедимся, что кнопка поверх */
+}
+
+.watch-button:hover {
+    background: #e50914;
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    background: #181818;
+    width: 100%;
+}
+
+/* Мобильные стили */
+@media (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carousel {
+        height: 250px;
+    }
+
+    .carousel img {
+        height: 100%;
+    }
+}
